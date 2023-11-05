@@ -150,6 +150,43 @@ function upload($data)
   move_uploaded_file($tmpName, './files/' . $namaFileBaru);
   return $namaFileBaru;
 }
+function uploadAPI($data)
+{
+  // return false;
+  $namaFile = $_FILES[$data]['name'];
+  // $ukuranFile = $_FILES[$data]['size'];
+  $error = $_FILES[$data]['error'];
+  $tmpName = $_FILES[$data]['tmp_name'];
+  // cek jika tidak ada gambar diupload
+
+  // if ($error === 4) {
+  //   echo "
+  //           <script>
+  //               alert('Masukkan Berkas');
+  //           </script>
+  //           ";
+  //   return false;
+  // }
+  // cek yang boleh diupload
+  $ekstensiFileValid = ['docx'];
+  $ekstensiFile = explode('.', $namaFile);
+  $ekstensiFile = strtolower(end($ekstensiFile));
+  if (!in_array($ekstensiFile, $ekstensiFileValid)) {
+    echo "
+            <script>
+                alert('Upload berkas berekstensi docx'" . $data . ");
+            </script>
+            ";
+    return false;
+  }
+  // lolos pengecekan
+  //generate
+  $namaFileBaru = uniqid();
+  $namaFileBaru .= '.';
+  $namaFileBaru .= $ekstensiFile;
+  move_uploaded_file($tmpName, '../files/' . $namaFileBaru);
+  return $namaFileBaru;
+}
 
 function query_data($params)
 {

@@ -47,32 +47,32 @@
     </section>
     <section class="container mt-5">
         <div class="row justify-content-center">
-            <div class="col-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card px-3 py-3 mb-3">
                     <div>apa perbuatan berindikasi Tindak Pidana Korupsi/pelanggaran yang diketahui</div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card px-3 py-3 mb-3">
                     <div>apa perbuatan berindikasi Tindak Pidana Korupsi/pelanggaran yang diketahui</div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card px-3 py-3 mb-3">
                     <div>apa perbuatan berindikasi Tindak Pidana Korupsi/pelanggaran yang diketahui</div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card px-3 py-3 mb-3">
                     <div>apa perbuatan berindikasi Tindak Pidana Korupsi/pelanggaran yang diketahui</div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card px-3 py-3 mb-3">
                     <div>apa perbuatan berindikasi Tindak Pidana Korupsi/pelanggaran yang diketahui</div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="card px-3 py-3 mb-3">
                     <div>apa perbuatan berindikasi Tindak Pidana Korupsi/pelanggaran yang diketahui</div>
                 </div>
@@ -82,6 +82,29 @@
     <section class="container text-center my-5">
         <div class="card px-4 py-4 bg-secondary text-white">
             <div>Anda tidak perlu khawatir terungkapnya identitas diri anda karena LKPP akan MERAHASIAKAN & MELINDUNGI Identitas Anda sebagai whistleblower. LKPP sangat menghargai informasi yang Anda laporkan. Fokus kami kepada materi informasi yang Anda Laporkan. Sebagai bentuk terimakasih kami terhadap laporan yang Anda kirim, kami berkomitmen untuk merespon laporan Anda selambat-lambatnya 7 (tujuh) hari kerja sejak laporan Anda dikirim.</div></div>
+    </section>
+    
+    <section class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card px-3 py-3 mb-3">
+                    <h5>Buat Laporan Pengaduan</h5>
+                    <div>apa perbuatan berindikasi Tindak Pidana Korupsi/pelanggaran yang diketahui</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card px-3 py-3 mb-3">
+                    <h5>Buat Laporan Pengaduan</h5>
+                    <div>apa perbuatan berindikasi Tindak Pidana Korupsi/pelanggaran yang diketahui</div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card px-3 py-3 mb-3">
+                    <h5>Buat Laporan Pengaduan</h5>
+                    <div>apa perbuatan berindikasi Tindak Pidana Korupsi/pelanggaran yang diketahui</div>
+                </div>
+            </div>
+        </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
